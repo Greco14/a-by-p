@@ -1,0 +1,19 @@
+mixin covers(params)
+	.coversHold(class="#{params.quitame}")
+		.safeArea
+			.especials
+				p <span>Sixe Paredes</span> / <span class="greydash">Momo</span> / <span class="greydash">Pablo Picaso</span>
+		.cover(id="#{params.section}-cover")
+			.txtIn
+				h1= params.tt1
+			h1= params.titulo
+			span= params.spam
+
+mixin covers2(params)
+	a(href="assets/images/#{params.folder}/#{params.name}.jpg", data-lightbox="#{params.lightbox}", title="#{params.title}")
+		.coversHold.conv2
+			.cover(id="#{params.section}-cover")
+				.txtIn
+					h1= params.tt1
+				h1= params.titulo
+				span= params.spam

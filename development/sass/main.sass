@@ -1,0 +1,234 @@
+@import "_vars"
+@import "_fonts"
+
+@import "_menu"
+@import "_footer"
+
+@import "_about"
+@import "_artist"
+@import "_calendar"
+@import "_contacto"
+@import "_events"
+@import "_store"
+
+
+
+
+html,body
+  margin: 0 auto
+  width: 100%
+  min-height: 930px
+  height: 100%
+  background-color: $blanco
+  font-family: 'c-regular'
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input
+  color: $negro
+  text-decoration: none
+
+p
+  margin: 0 auto
+
+sub
+  font-size: 10px
+  top: -8px
+  position: relative
+  color: $blanco
+  left: -3px
+  font-family: 'c-regular'
+
+
+
+h2,h3
+  font-family: 'universa'
+  color: $gris
+  font-size: 18px
+  margin: 0 auto
+
+h1,h4
+  text-align: center
+  margin: 0
+  font-size: 45px
+  color: $blanco
+  font-family: 'universa'
+
+h4
+  border-top: 1px solid $gris
+ul 
+  padding-left: 22px
+  list-style: none
+  
+ul li
+  font-family: 'c-regular'
+  font-size: 15px
+  color: $gris
+  text-indent: -5px
+  &:before
+    content: "-"
+    position: relative
+    left: -10px
+
+input
+  outline: none
+  border: none
+
+
+.autoalpha-0
+  opacity: 0
+  visibility: hidden
+
+.align-center
+  text-align: center
+
+.center-all,
+.center-horizontal,
+.center-vertical
+  position: absolute
+  margin: auto
+
+.center-all,
+.center-horizontal
+  left: 0
+  right: 0
+
+.center-all,
+.center-vertical
+  top: 0
+  bottom: 0
+.bgi 
+  background-position: center
+  background-repeat: no-repeat
+#wrapper 
+  padding-top: 100px
+  background-color: $blanco
+.mainHold
+  width: 100%
+  position: relative
+  min-height: 100%
+  .safeArea
+    width: 980px
+    height: auto
+    position: relative
+    margin: 0 auto
+  .coversHold
+    width: 100%
+    height: 100%
+    position: relative
+    margin-bottom: 55px
+    &.kitame
+      height: 400px
+      margin-bottom: 0
+    &.conv2
+      margin-bottom: 0
+      height: 400px
+    .especials
+      width: 100%
+      height: 40px
+      background-color: $blanco
+      padding-top: 10px
+      p 
+        font-size: 19px
+        span  
+          display: inline-block
+          margin-right: 20px
+          color: $rojo
+        span.greydash
+          color: $gris
+          margin-left: 20px
+    .cover
+      width: 100%
+      height: 700px
+      background-color: $gris
+      padding-top: 140px
+      text-align: center
+      span
+        width: 100%
+        font-family: 'universa'
+        font-size: 30px
+        color: $blanco
+        margin-top: 28px
+        position: relative
+        text-align: center
+  .holdColums
+    width: 100%
+    height: auto
+    position: relative
+    
+    .top-holder
+      width: 100%
+      height: 70px
+      position: relative
+      margin-bottom: 30px
+      .title
+        float: left
+      .other-link
+        float: right
+
+        p 
+          text-decoration: underline
+          font-family: 'c-newbold'
+          display: inline-block
+          float: left
+          margin-right: 15px
+          color: $gris
+        span 
+          text-decoration: none
+          font-family: 'c-newbold'
+          display: inline-block
+          float: left
+          margin-right: 15px
+          color: $gris
+
+    .columsText
+      width: 453px
+      height: auto
+      padding-bottom: 45px
+      position: relative
+      font-size: 14px
+      font-family: 'c-regular'
+      margin-right: 38px
+      float: left
+    .columsText-sec
+      margin-right: 0
+
+  .galeriaHold
+    width: 100%
+    height: auto
+    .top-holderH
+      width: 100%
+      height: auto
+    .holdInPic
+      width: 978px
+      height: 728px
+      position: relative
+      margin-top: 40px
+      background-color: $gris-claro
+      
+      .img-pic
+        width: 222px
+        height: 222px
+        position: relative
+        float: left
+        margin-right: 30px
+        margin-bottom: 30px
+        background-color: #FFF
+        &.lastRt
+          margin-right: 0
+        &.btmLst
+          margin-bottom: 0
+        img 
+          width: 100%
+  .go_calendar, .go_store
+    cursor: pointer
+
+::selection
+  background: $rojo /* WebKit/Blink Browsers */
+  color: $blanco
+::-moz-selection 
+  background: $rojo /* Gecko Browsers */
+  color: $blanco
+
+
+
+

@@ -1,0 +1,1 @@
+Main={init:function(i){navigation=new Navigation,navigation.init()}},$(function(){Main.init()});

@@ -1,0 +1,4 @@
+mixin img-pic(params)
+	a(href="assets/images/#{params.folder}/#{params.name}.jpg", data-lightbox="#{params.lightbox}", title="#{params.title}")
+		.img-pic(class="#{params.clase}")
+			img(src="assets/images/#{params.folder}/#{params.name}thumb.jpg")

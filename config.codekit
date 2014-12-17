@@ -343,6 +343,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/development\/views\/includes\/_header.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/_header.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/_header.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/development\/views\/includes\/_menu.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -449,6 +460,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/development\/views\/includes\/events\/_videos.jade",
 		"outputAbbreviatedPath": "\/development\/views\/includes\/events\/_videos.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/future_events\/_future_events.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/future_events\/_future_events.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/future_events\/_future_events.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -1527,6 +1549,17 @@
 		"initialSize": 36204,
 		"inputAbbreviatedPath": "\/public\/assets\/images\/futurismo\/totme3thumb.jpg",
 		"outputAbbreviatedPath": "\/public\/assets\/images\/futurismo\/totme3thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/future_events\/cover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 150605,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/future_events\/cover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/future_events\/cover.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -17,7 +17,7 @@
   padding-top: 15px;
   position: fixed;
   top: 0;
-  padding-bottom: 20px;
+  height: 77px;
   z-index: 10; }
   #head .logoTop {
     width: 226px;
@@ -282,7 +282,7 @@
 html, body {
   margin: 0 auto;
   width: 100%;
-  min-height: 930px;
+  min-height: 800px;
   height: 100%;
   background-color: #fff;
   font-family: "c-regular"; }
@@ -292,7 +292,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   text-decoration: none; }
 
 p {
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
 
 sub {
   font-size: 10px;
@@ -363,14 +364,35 @@ input {
   background-position: center;
   background-repeat: no-repeat; }
 
+.center-h {
+  margin: 0 auto;
+  position: relative; }
+
 #wrapper {
   padding-top: 100px;
-  background-color: #fff; }
+  background-color: #fff;
+  width: 100%;
+  height: 100%; }
+  #wrapper section {
+    width: 100%;
+    min-height: 100%;
+    min-width: 980px;
+    position: relative; }
+    #wrapper section .imgcoverIN {
+      height: 100%;
+      position: relative;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
+    #wrapper section .infoHolder {
+      width: 100%;
+      height: 100%;
+      position: relative; }
 
 .mainHold {
   width: 100%;
-  position: relative;
-  min-height: 100%; }
+  position: relative; }
   .mainHold .safeArea {
     width: 980px;
     height: auto;

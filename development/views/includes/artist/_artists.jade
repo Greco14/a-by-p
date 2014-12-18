@@ -1,35 +1,49 @@
-#artist-section.mainHold
-	+covers({section:'artist', titulo:'Sixe Paredes', spam:'( S P )'})
-	.safeArea.artistSafe
-		.holdColums
-			.top-holder
-				.title
-					h2 About
-				.other-link
-					p(class="go_store") A (by) P Store 
-					span - 
-					p(class="go_calendar") Calendar
-			.columsText
-				p 	
-					| Barcelona-born Sixe is one of the world’s 
-					| most established Independent Public 
-					| Artists. An autodidact, Sixe developed his 
-					| style on the street, spraypainting his 
-					| suburbs during the 1980s. Moving his 
-					| ainting practice to the studio in the 1990s 
-					| (whilst still always returning back to the 
-					| street), Sixe’s work as been as equally 
-					| successful in both locations. He is now
+section(id="artists-section")
+	.sectInH3.imgcoverIN(style="background: url('../assets/images/gui/artists/cover.jpg') no-repeat center center fixed; -webkit-background-size: cover -moz-background-size: cover; -o-background-size: cover; background-size: cover;")
+	.sectInH3.infoHolder.mainHold
+		.safeArea.SfH.center-h
+			.holdColums
+				.columsText
+					p Barcelona-born Sixe is one of the world’s most established Independent Public Artists.
+					p An autodidact, Sixe developed his style on the street, spraypainting his suburbs during the 1980s. Moving his painting practice to the studio in the 1990s (whilst never truly leaving the vitality of the the street), Sixe’s work as been as equally successful in both locations.
+					p <a href="http://www.sixeparedes.com/" target="_blank">www.sixeparedes.com</a><br><a href="http://instagram.com/sixeparedes" target="_blank">instagram.com/sixeparedes</a>
 
-			.columsText.columsText-sec
-				p
-					| represented in major collections around the 
-					| globe and his artwork has been exhibited 
-					| alongside that of Joan Miró and Antonio 
-					| Tàpies. In 2008, he was one of six 
-					| international artists façade for the first 
-					| time. He has not participated in any UK 
-					| shows since, with the Somerset House 
-					| residency marking his return to London.
-	include _galery
+				.columsText.columsText-sec
+					p Futurismo Ancestral included large-scale artworks such as tapestries, totems, quipus and ceramics crafted by Sixe himself, as well as daily, interactive events on all aspects of Peruvian and Andean culture. Working with world renowned chefs (Virgilio Martinez from Michelin-Star restaurant Lima), DJs (from London’s NTS Radio), musicians, poets, and academics, Futurismo Ancestral utilised every and any medium to convey the richness of the Peruvian and Andean visual realm. It is Sixe’s love letter, his offering to Peru.
+	include _gallery
+	//- include _list
+//- #artist-section.mainHold
+//- 	+covers({section:'artist', titulo:'Sixe Paredes', spam:'( S P )'})
+//- 	.safeArea.artistSafe
+//- 		.holdColums
+//- 			.top-holder
+//- 				.title
+//- 					h2 About
+//- 				.other-link
+//- 					p(class="go_store") A (by) P Store 
+//- 					span - 
+//- 					p(class="go_calendar") Calendar
+//- 			.columsText
+//- 				p 	
+//- 					| Barcelona-born Sixe is one of the world’s 
+//- 					| most established Independent Public 
+//- 					| Artists. An autodidact, Sixe developed his 
+//- 					| style on the street, spraypainting his 
+//- 					| suburbs during the 1980s. Moving his 
+//- 					| ainting practice to the studio in the 1990s 
+//- 					| (whilst still always returning back to the 
+//- 					| street), Sixe’s work as been as equally 
+//- 					| successful in both locations. He is now
+
+//- 			.columsText.columsText-sec
+//- 				p
+//- 					| represented in major collections around the 
+//- 					| globe and his artwork has been exhibited 
+//- 					| alongside that of Joan Miró and Antonio 
+//- 					| Tàpies. In 2008, he was one of six 
+//- 					| international artists façade for the first 
+//- 					| time. He has not participated in any UK 
+//- 					| shows since, with the Somerset House 
+//- 					| residency marking his return to London.
+//- 	include _galery
 

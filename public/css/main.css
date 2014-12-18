@@ -14,7 +14,7 @@
   font-family: "universa";
   src: url("../assets/fonts/UniversLTStd-BoldEx.eot?") format("eot"), url("../assets/fonts/UniversLTStd-BoldEx.otf") format("opentype"), url("../assets/fonts/UniversLTStd-BoldEx.woff") format("woff"), url("../assets/fonts/UniversLTStd-BoldEx.ttf") format("truetype"), url("../assets/fonts/UniversLTStd-BoldEx.svg#UniversLTStd-BoldEx") format("svg"); }
 #head {
-  padding-top: 15px;
+  padding-top: 13px;
   position: fixed;
   top: 0;
   height: 77px;
@@ -103,10 +103,14 @@
 
 #about-section {
   margin-top: 70px;
-  height: auto;
-  padding-bottom: 60px; }
+  height: auto; }
   #about-section h1 {
     color: #000; }
+  #about-section .holdColums {
+    width: 80% !important;
+    margin: 0 auto; }
+    #about-section .holdColums .columsText {
+      width: 363px !important; }
 
 #artist-section {
   height: auto;
@@ -169,11 +173,20 @@
     top: 90px; }
 
 #contact-section {
-  margin-top: 370px;
-  height: auto;
-  padding-bottom: 160px; }
+  height: 100%; }
+  #contact-section .holdIt {
+    width: 960px;
+    height: 470px; }
   #contact-section h1 {
     color: #000; }
+
+.lineThis {
+  width: 20px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #000;
+  margin-top: 20px;
+  margin-bottom: 40px; }
 
 #events-section {
   height: auto;
@@ -252,7 +265,6 @@
 
 #store-section {
   height: auto;
-  padding-bottom: 60px;
   background-color: #fff; }
   #store-section #store-cover {
     background: url("../assets/images/editions/quipu.jpg") no-repeat center center;
@@ -279,13 +291,95 @@
   #store-section .holdInPic {
     height: 225px; }
 
+.sectionGal, .sectionGal2, .sectionGal3 {
+  height: 25%; }
+  .sectionGal .allGals, .sectionGal2 .allGals, .sectionGal3 .allGals {
+    width: 100%;
+    height: 500px; }
+    .sectionGal .allGals .middleHalf, .sectionGal2 .allGals .middleHalf, .sectionGal3 .allGals .middleHalf {
+      height: 250px; }
+    .sectionGal .allGals .gridIt img, .sectionGal2 .allGals .gridIt img, .sectionGal3 .allGals .gridIt img {
+      width: 215px;
+      height: 215px;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0; }
+
+.sectionGal2 {
+  height: 40% !important; }
+
+.sectionGal3 {
+  height: 33.3% !important; }
+
+.listHolder {
+  background-color: #666666;
+  overflow: hidden; }
+  .listHolder .listMe {
+    width: 100%;
+    height: 500px;
+    top: 50px;
+    position: relative; }
+  .listHolder .listH p {
+    color: #fff;
+    font-family: "universa"; }
+  .listHolder .rtLh p {
+    text-align: right; }
+  .listHolder .colummSingle {
+    width: 100%;
+    height: auto;
+    padding-bottom: 45px;
+    position: relative;
+    font-size: 20px;
+    font-family: "c-regular";
+    padding-top: 80px; }
+    .listHolder .colummSingle p {
+      color: #fff;
+      text-align: center;
+      font-family: "universa";
+      line-height: 35px; }
+
+.listVid {
+  background-color: #ed0000;
+  overflow: hidden; }
+  .listVid .video_H {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    margin-bottom: 40px; }
+    .listVid .video_H iframe {
+      width: 100%;
+      height: 100%; }
+  .listVid .listMe {
+    width: 100%;
+    height: 500px;
+    top: 50px; }
+    .listVid .listMe .holdColums .columsText p {
+      color: #fff;
+      margin-bottom: 10px; }
+    .listVid .listMe .holdColums .columsText .bolitasHOlder {
+      width: 100%;
+      height: 30px; }
+      .listVid .listMe .holdColums .columsText .bolitasHOlder .bl1 {
+        width: 30px;
+        height: 30px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        background-color: #fff;
+        margin-right: 30px;
+        float: left; }
+      .listVid .listMe .holdColums .columsText .bolitasHOlder .blf {
+        margin-right: 0; }
+
 html, body {
   margin: 0 auto;
   width: 100%;
   min-height: 800px;
   height: 100%;
   background-color: #fff;
-  font-family: "c-regular"; }
+  font-family: "c-regular";
+  padding-top: 40px; }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input {
   color: #000;
@@ -368,36 +462,67 @@ input {
   margin: 0 auto;
   position: relative; }
 
+.section-half, .section-third, .section-frt {
+  float: left;
+  position: relative; }
+
+.section-half {
+  width: 50%; }
+
+.section-third {
+  width: 33.3%; }
+
+.section-frt {
+  width: 25%; }
+
 #wrapper {
   padding-top: 100px;
   background-color: #fff;
   width: 100%;
   height: 100%; }
-  #wrapper section {
+
+section {
+  width: 100%;
+  height: 400%;
+  min-width: 980px;
+  position: relative; }
+  section .imgcoverIN {
     width: 100%;
-    min-height: 100%;
-    min-width: 980px;
+    height: 100%;
     position: relative; }
-    #wrapper section .imgcoverIN {
-      height: 100%;
-      position: relative;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover; }
-    #wrapper section .infoHolder {
-      width: 100%;
-      height: 100%;
-      position: relative; }
+  section .infoHolder {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+
+#previus_events-section {
+  height: 500%; }
+
+#artists-section {
+  height: 300%; }
+
+#about-section {
+  height: 100%; }
+
+.sectInH {
+  height: 25% !important; }
+
+.sectInH2 {
+  height: 20% !important; }
+
+.sectInH3 {
+  height: 33.3% !important; }
 
 .mainHold {
   width: 100%;
   position: relative; }
   .mainHold .safeArea {
-    width: 980px;
-    height: auto;
-    position: relative;
-    margin: 0 auto; }
+    width: 980px; }
+  .mainHold .SfH {
+    padding-top: 50px;
+    min-height: 750px;
+    height: 100%;
+    position: relative; }
   .mainHold .coversHold {
     width: 100%;
     height: 100%;
@@ -440,7 +565,8 @@ input {
   .mainHold .holdColums {
     width: 100%;
     height: auto;
-    position: relative; }
+    position: relative;
+    padding-top: 50px; }
     .mainHold .holdColums .top-holder {
       width: 100%;
       height: 70px;
@@ -473,6 +599,8 @@ input {
       font-family: "c-regular";
       margin-right: 38px;
       float: left; }
+      .mainHold .holdColums .columsText a {
+        color: #ed0000; }
     .mainHold .holdColums .columsText-sec {
       margin-right: 0; }
   .mainHold .galeriaHold {

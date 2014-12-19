@@ -26,9 +26,9 @@
 			text-align: center
 			font-family: 'universa'
 			cursor: pointer
-			&#artist
+			&#artists
 				width: 90px
-			&#calendar, &#events
+			&#future_events, &#previus_events
 				width: 144px
 			&#store
 				width: 144px					
@@ -43,9 +43,9 @@
 					border-bottom: 5px solid $gris
 				&:hover
 					border-bottom: 5px solid $gris
-				&#artist-btn
+				&#artists-btn
 					width: 90px
-				&#calendar-btn, &#events-btn
+				&#future_events-btn, &#previus_events-btn
 					width: 134px
 				
 					
@@ -54,6 +54,19 @@
 				p
 					color: $gris
 					font-size: 14px
+	&.whiteMe
+		.logoTop
+			background-image: url("../assets/images/gui/logoW.png")
+		.NavHold
+			.btn-nav
+				.in-btn-nav
+					p 
+						color: $blanco
+					&.active-nav
+						border-bottom: 5px solid $blanco
+					&:hover
+						border-bottom: 5px solid $blanco
+
 	.socialHold
 		width: 130px
 		height: 35px

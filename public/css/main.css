@@ -40,9 +40,9 @@
       text-align: center;
       font-family: "universa";
       cursor: pointer; }
-      #head .NavHold .btn-nav#artist {
+      #head .NavHold .btn-nav#artists {
         width: 90px; }
-      #head .NavHold .btn-nav#calendar, #head .NavHold .btn-nav#events {
+      #head .NavHold .btn-nav#future_events, #head .NavHold .btn-nav#previus_events {
         width: 144px; }
       #head .NavHold .btn-nav#store {
         width: 144px; }
@@ -56,15 +56,23 @@
           border-bottom: 5px solid #666666; }
         #head .NavHold .btn-nav .in-btn-nav:hover {
           border-bottom: 5px solid #666666; }
-        #head .NavHold .btn-nav .in-btn-nav#artist-btn {
+        #head .NavHold .btn-nav .in-btn-nav#artists-btn {
           width: 90px; }
-        #head .NavHold .btn-nav .in-btn-nav#calendar-btn, #head .NavHold .btn-nav .in-btn-nav#events-btn {
+        #head .NavHold .btn-nav .in-btn-nav#future_events-btn, #head .NavHold .btn-nav .in-btn-nav#previus_events-btn {
           width: 134px; }
         #head .NavHold .btn-nav .in-btn-nav#store-btn {
           width: 134px; }
         #head .NavHold .btn-nav .in-btn-nav p {
           color: #666666;
           font-size: 14px; }
+  #head.whiteMe .logoTop {
+    background-image: url("../assets/images/gui/logoW.png"); }
+  #head.whiteMe .NavHold .btn-nav .in-btn-nav p {
+    color: #fff; }
+  #head.whiteMe .NavHold .btn-nav .in-btn-nav.active-nav {
+    border-bottom: 5px solid #fff; }
+  #head.whiteMe .NavHold .btn-nav .in-btn-nav:hover {
+    border-bottom: 5px solid #fff; }
   #head .socialHold {
     width: 130px;
     height: 35px;
@@ -100,6 +108,8 @@
         text-align: center;
         color: #ed0000;
         text-decoration: underline; }
+  .footer.whiteMe .socialHold .btnIn p {
+    color: #fff; }
 
 #about-section {
   margin-top: 70px;
@@ -264,16 +274,7 @@
             color: #ed0000; }
 
 #store-section {
-  height: auto;
-  background-color: #fff; }
-  #store-section #store-cover {
-    background: url("../assets/images/editions/quipu.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; }
-    #store-section #store-cover span {
-      font-size: 45px; }
+  height: 100% !important; }
   #store-section .storeSafe {
     height: 275px; }
     #store-section .storeSafe .redTitle {
@@ -371,6 +372,67 @@
         float: left; }
       .listVid .listMe .holdColums .columsText .bolitasHOlder .blf {
         margin-right: 0; }
+
+.allGals .gridIt .colB {
+  width: 60%;
+  height: 90%;
+  background-color: #ed0000; }
+  .allGals .gridIt .colB.coloBlock1, .allGals .gridIt .colB.coloBlock8, .allGals .gridIt .colB.coloBlock18 {
+    background-color: yellow; }
+  .allGals .gridIt .colB.coloBlock4, .allGals .gridIt .colB.coloBlock6, .allGals .gridIt .colB.coloBlock9, .allGals .gridIt .colB.coloBlock11, .allGals .gridIt .colB.coloBlock12, .allGals .gridIt .colB.coloBlock13 {
+    background-color: #666666; }
+  .allGals .gridIt .colB.coloBlock5, .allGals .gridIt .colB.coloBlock10, .allGals .gridIt .colB.coloBlock15, .allGals .gridIt .colB.coloBlock17 {
+    background-color: green; }
+  .allGals .gridIt .colB.coloBlock1 {
+    left: 150px; }
+  .allGals .gridIt .colB.coloBlock2 {
+    width: 100%;
+    height: 60%;
+    left: 150px; }
+  .allGals .gridIt .colB.coloBlock4, .allGals .gridIt .colB.coloBlock5 {
+    width: 40%; }
+  .allGals .gridIt .colB.coloBlock4 {
+    left: 90px; }
+  .allGals .gridIt .colB.coloBlock5 {
+    height: 80%;
+    left: -70px; }
+  .allGals .gridIt .colB.coloBlock6 {
+    width: 90%; }
+  .allGals .gridIt .colB.coloBlock7 {
+    width: 95%; }
+  .allGals .gridIt .colB.coloBlock8 {
+    width: 50%;
+    height: 80%;
+    top: -50px;
+    left: 120px; }
+  .allGals .gridIt .colB.coloBlock10 {
+    width: 40%;
+    height: 80%;
+    left: 120px; }
+  .allGals .gridIt .colB.coloBlock11 {
+    top: -70px;
+    left: -20px; }
+  .allGals .gridIt .colB.coloBlock12 {
+    width: 80%;
+    height: 60%;
+    top: -220px;
+    left: 70px; }
+  .allGals .gridIt .colB.coloBlock14 {
+    width: 50%;
+    height: 50%;
+    left: 30px;
+    top: -120px; }
+  .allGals .gridIt .colB.coloBlock15 {
+    width: 95%;
+    top: -50px; }
+  .allGals .gridIt .colB.coloBlock17 {
+    height: 100%;
+    width: 50%;
+    left: -120px; }
+  .allGals .gridIt .colB.coloBlock18 {
+    height: 70%;
+    left: -60px;
+    top: -10px; }
 
 html, body {
   margin: 0 auto;
@@ -475,6 +537,16 @@ input {
 .section-frt {
   width: 25%; }
 
+#logoAn {
+  width: 87px;
+  height: 104px;
+  background-image: url("../assets/images/home/anagrama.png");
+  position: fixed;
+  top: 30%;
+  right: 10%; }
+  #logoAn.whiteMe {
+    background-image: url("../assets/images/gui/anagrama_w.png"); }
+
 #wrapper {
   padding-top: 100px;
   background-color: #fff;
@@ -499,7 +571,7 @@ section {
   height: 500%; }
 
 #artists-section {
-  height: 300%; }
+  height: 400%; }
 
 #about-section {
   height: 100%; }
@@ -511,7 +583,7 @@ section {
   height: 20% !important; }
 
 .sectInH3 {
-  height: 33.3% !important; }
+  height: 25% !important; }
 
 .mainHold {
   width: 100%;

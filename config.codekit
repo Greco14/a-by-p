@@ -1668,6 +1668,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/assets\/images\/gui\/anagrama_w.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3937,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/anagrama_w.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/anagrama_w.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/assets\/images\/gui\/artists\/cover.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1774,6 +1785,17 @@
 		"initialSize": 20289,
 		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/gallery\/future_events\/8.jpg",
 		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/gallery\/future_events\/8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/logow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4162,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/logow.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/logow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
